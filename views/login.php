@@ -10,7 +10,7 @@
 
 <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
   <div class="card shadow p-4" style="width: 100%; max-width: 400px;">
-    <h3 class="text-center mb-4">Iniciar Sesión</h3>
+    <h3 class="text-center mb-4">Bienvenido</h3>
     
     <form method="POST" action="index.php?controller=auth">
       <div class="mb-3">
