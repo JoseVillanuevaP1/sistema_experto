@@ -3,27 +3,27 @@
 
 %--------------------------------
 % Reglas por enfermedad
-enfermedad('Gripe') :-
+enfermedad(1) :-
     tiene(s1), % Fiebre
     tiene(s2), % Dolor de garganta
     tiene(s3). % Congestión nasal
 
-enfermedad('COVID-19') :-
+enfermedad(2) :-
     tiene(s1), % Fiebre
     tiene(s4), % Tos seca
     tiene(s5). % Dificultad para respirar
 
-enfermedad('Neumonía') :-
+enfermedad(3) :-
     tiene(s1), % Fiebre
     tiene(s5), % Dificultad para respirar
     tiene(s6). % Dolor en el pecho
 
-enfermedad('Alergia') :-
+enfermedad(4) :-
     tiene(s3), % Congestión nasal
     tiene(s7), % Estornudos
     tiene(s8). % Picazón en ojos/nariz
 
-enfermedad('Migraña') :-
+enfermedad(5) :-
     tiene(s9),  % Dolor de cabeza intenso
     tiene(s10), % Náuseas
     tiene(s11). % Sensibilidad a la luz
